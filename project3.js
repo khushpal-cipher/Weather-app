@@ -9,7 +9,7 @@ button.addEventListener("click", (e) => {
     e.preventDefault(); 
 
     const city = input.value.trim();
-
+    
     if (!city) {
         alert("Enter a city name");
         return;
